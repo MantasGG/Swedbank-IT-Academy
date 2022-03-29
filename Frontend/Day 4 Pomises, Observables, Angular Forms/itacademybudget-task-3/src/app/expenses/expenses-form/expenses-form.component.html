@@ -1,0 +1,33 @@
+<h3>Add expense</h3>
+
+<form>
+  <div class="row">
+    <div class="col">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Expense name"
+        name="name"
+        [(ngModel)]="expense.name"
+      />
+    </div>
+    <div class="col">
+      <input
+        type="text"
+        class="form-control"
+        placeholder="Date"
+        bsDatepicker
+        [bsConfig]="{ dateInputFormat: 'YYYY-MM-DD' }"
+        name="date"
+      />
+    </div>
+    <div class="col">
+      <input type="text" class="form-control" placeholder="Amount" name="amount" />
+    </div>
+    <div class="col">
+      <button class="btn btn-primary">Add</button>
+    </div>
+  </div>
+</form>
+
+{{ expsense }}

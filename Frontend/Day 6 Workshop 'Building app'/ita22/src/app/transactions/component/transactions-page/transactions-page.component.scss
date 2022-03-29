@@ -1,0 +1,10 @@
+a.active {
+  font-weight: bold;
+}
+
+.transaction{
+  color: limegreen;
+  &--expense {
+    color: crimson;
+  }
+}

@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="aae30aae-e690-4903-a0cf-73ae9590b7f0" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/entity/CountryCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/exception/CustomerNotAdultException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/exception/InvalidCountryCodeException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/repository/MemoryCustomerRepository.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/CountryCodeValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/CustomerAdultValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/CustomerService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/MandatoryCustomerValuesValidator.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/ValidationUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/academy/service/Validator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/academy/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/academy/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/academy/entity/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/academy/entity/Customer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/academy/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/academy/repository/CustomerRepository.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Enum" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectId" id="269B3NqIvTVi4YM8t7nDlge1A1N" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../oopbasics2" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.tslint" value="true" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.tslint" value="(autodetect)" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.academy.service" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="ITAcademyCustomerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="academy-customer-app.main" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.academy.ITAcademyCustomerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="aae30aae-e690-4903-a0cf-73ae9590b7f0" name="Changes" comment="" />
+      <created>1646825723594</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1646825723594</updated>
+      <workItem from="1646825725351" duration="8943000" />
+      <workItem from="1646910054394" duration="879000" />
+      <workItem from="1646921921384" duration="571000" />
+      <workItem from="1646922521096" duration="46000" />
+      <workItem from="1646990946080" duration="523000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

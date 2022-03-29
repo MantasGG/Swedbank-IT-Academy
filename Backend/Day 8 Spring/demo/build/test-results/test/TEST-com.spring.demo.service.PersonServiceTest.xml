@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.spring.demo.service.PersonServiceTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-03-16T14:47:27" hostname="DESKTOP-5G3M70U" time="1.368">
+  <properties/>
+  <testcase name="When_FirstNamePresent_Expect_PersonsMatchingFirstName()" classname="com.spring.demo.service.PersonServiceTest" time="1.368"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>

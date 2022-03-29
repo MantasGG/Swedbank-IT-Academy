@@ -1,0 +1,27 @@
+<!--<pre>-->
+<!--  {{ transactions$ | async | json }}-->
+<!--</pre>-->
+<ng-container *ngIf="transactions$ | async as transactions">
+  <ul>
+    <li *ngFor="let transaction of transactions">
+      <a
+        [routerLink]="['/transactions', transaction.id]"
+        routerLinkActive="active"
+        class="transaction"
+        [class]="{
+          'transaction--expense': transaction.amount < 0
+        }"
+      >
+        {{ transaction.id }} - {{ transaction.amount }} - {{ transaction.payee }}
+      </a>
+    </li>
+  </ul>
+</ng-container>
+
+<ng-container *ngIf="transactionId$ | async as transactionId; else newTransaction">
+  <h3>Edit transaction {{ transactionId }}</h3>
+</ng-container>
+
+<ng-template #newTransaction>
+  <h3>Create new transaction</h3>
+</ng-template>

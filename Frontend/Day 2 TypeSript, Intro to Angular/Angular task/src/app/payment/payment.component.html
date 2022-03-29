@@ -1,0 +1,11 @@
+<hr>
+
+<div class="paymentComponentBlock">
+  <h2>Payment component</h2>
+  <b>Name: </b><span (click)="clickName($event)">{{entryVariableInput?.name}}</span>
+  <form></form>
+  <br>
+  <b>Amount: </b><span>{{entryVariableInput?.amount}}</span>
+  <br>
+  <button class="paymentButton" (click)="clickAmount($event)">Make payment</button>
+</div>
